@@ -10,5 +10,9 @@ namespace OnlineShoppingDataAcessLayer
     interface IUserAccessibilityRepository
     {
         bool CreateAccount(UserDetailsViewModel userInfo);
+
+        bool ValidateUserCredentials(ValidateUserCredentials userCreds);
+
+
     }
 }
